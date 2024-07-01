@@ -1,0 +1,26 @@
+/* App.css */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.product-list, .cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.product-card, .cart-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-card button, .cart-item button {
+  margin-top: 1rem;
+}
